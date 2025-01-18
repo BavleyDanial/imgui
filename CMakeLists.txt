@@ -15,6 +15,6 @@ add_library(imgui STATIC ${IMGUI_SRC})
 target_include_directories(imgui PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}
     ${CMAKE_CURRENT_SOURCE_DIR}/backends
-    ${CMAKE_SOURCE_DIR}/glfw/include
+    ${CMAKE_SOURCE_DIR}/vendor/glfw/include
 )
 
